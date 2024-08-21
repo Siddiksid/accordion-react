@@ -7,7 +7,7 @@ function App() {
     <div className="home1">
       <div className="accordion-body">
         <div className="header">
-          <img src="../assets/images/icon-star.svg" alt="star" />
+          <img src={star} alt="star" />
           <h1>FAQs</h1>
         </div>
         <AccordionQnA data={data}/>
