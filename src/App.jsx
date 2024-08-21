@@ -1,6 +1,7 @@
 import "./App.css";
 import { AccordionQnA } from "./components/AccordionQnA";
 import { data } from "./Data";
+import star from "../assets/images/icon-star.svg"
 function App() {
   return (
     <div className="home1">
