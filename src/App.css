@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+ 
+  background: url(../assets/images/background-pattern-mobile.svg) no-repeat;
+  background-position: top;
+  background-size: 100%;
+  background-position: fixed;
+  background-color: hsl(275, 100%, 97%);
+  font-family:"Work Sans";
+  max-height:100vh;
+}
+
+.top img {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .accordion-body {
+  background-color: #fff;
+  width: 90%;
+  max-height:600px;
+  margin:150px auto;
+  padding:20px;
+  border-radius:10px;
+} */
+.accordion-body {
+  background-color: #fff;
+  width: 80%;
+  
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top:70px;
+  margin-bottom:100px;
+}
+
+.header {
+  display: flex;
+  gap:20px;
+  
+}
+
+.header img{
+  width:25px;
+}
+
+.individual h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:30px;
+  margin-bottom:20px;
+  font-size:16px;
+}
+.individual h3:hover{
+  color:#AD28EB;
+}
+.ans{
+  color:hsl(292, 16%, 49%)
+}
+
+
+
+.individual {
+  border-bottom: 1px solid #e2e2e2; /* Light grey bottom border */
+  
+}
+
+.individual:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+@media only screen and (min-width: 400px) and (max-width:571px)
+{
+  .accordion-body{
+    width:70%;
+    
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width:850px)
+{
+  body{
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    
+  }
+  .accordion-body{
+    width:50%;
+    
+  }
+}
+@media only screen and (min-width: 851px) 
+{
+  body{
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    
+  }
+  .accordion-body
+  {
+    width:40%;
+    margin-bottom:0;
+  }
+} 
+
